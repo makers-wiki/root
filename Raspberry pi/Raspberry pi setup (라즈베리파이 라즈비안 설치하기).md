@@ -8,7 +8,7 @@
 == Raspbian 설치 ==
  '''라즈베리파이에 키보드나 마우스, 모니터 매번 연결하려니 번거롭다. 특히 pi-zero 같은 경우엔 usb포트는 하나밖에 없고 hdmi단자도 많이 쓰이지 않는 mini규격이라 난감하기 그지없다. 모니터 키보드 마우스 연결않고 (심지어 wifi동글 없어도!) 다른 노트북이나 데스크탑을 사용해 제어할 수 있는데, Headless 설정이라고 한다. (모니터 없다는 의미) [[Raspberry pi의 Headless 설정]] 문서를 참고하자'''
 
-** 2018년 6월 버전의 Raspbian이 ibus 한글입력기와 호환성 문제가 있는 것 같다. 한글을 써야한다면 다른 버전을 설치하자. 보다 안정적인 예전 버전의  raspbian Jessie 는 이곳에서...: http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-07-05/2017-07-05-raspbian-jessie.zip **
+** 2018년 6월 버전의 Raspbian이 ibus 한글입력기와 호환성 문제가 있는 것 같다. 한글을 써야한다면 다른 버전을 설치하자. 보다 안정적인 예전 버전의  raspbian Jessie 는 이곳에서...: http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-06-23/ **
 === Noobs 사용(더 쉽다) ===
 * 설치방법 참고: https://www.raspberrypi.org/learning/software-guide/quickstart/<br />
 
