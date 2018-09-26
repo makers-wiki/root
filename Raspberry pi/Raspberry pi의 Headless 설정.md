@@ -52,7 +52,8 @@ network={
 
 
 ### case 2. USB OTG 켜기 설정
-사실 wifi나 usb otg 둘 중 하나만 작동되면 되지만 일단 둘 다 켜두자. 특히 집에서 사용하다가 사무실로 옮겼다던지 하는 상황에서 wifi 연결을 재설정하려면 필요하다.
+raspberry pi model A,B의 경우에는 ethernet 단자가 있으므로 wifi연결이 안되어있다고 해도 바로 연결해 사용할 수 있지만 이더넷 단자가 없는 zero 모델같으면 USB 포트에 IP address를 부여할 수 있도록 해 주어 usb를 통해 ssh나 VNC 연결을 할 수 있다.
+zero의 경우에도 wifi나 usb otg 둘 중 하나만 작동되면 되지만 일단 둘 다 켜두자. 특히 집에서 사용하다가 사무실로 옮겼다던지 하는 상황에서 wifi 연결을 재설정하려면 필요하다.
 `/boot` 디렉토리에 `config.txt`파일을 열어서 편집한다.
 ```
 dtoverlay=dwc2

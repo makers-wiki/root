@@ -16,9 +16,9 @@ pi-zero camera
 
 ### 카메라 활성화
 부팅 후  시작메뉴 > preference > raspberry pi configuration > Interface > camera 항목을 활성화 (Enabled)
-데스크탑GUI가 아닌 CLI환경이라면 
+데스크탑GUI가 아닌 CLI환경이라면
 ```
-$ sudo raspi-configd
+$ sudo raspi-config
 ```
 명령을 실행해 카메라 활성화한다.
 
@@ -44,4 +44,3 @@ $ raspivid -t 10000 -o testVid.h264
 $ omxplayer testVid.h264
 ```
 10초동안 녹화 & 재생(omxplayer)
-
