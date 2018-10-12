@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-sudo
-
 # 파이썬과 웹소켓 통한 통신을 위해 라이브러리 설치
 pip3 install git+https://github.com/dpallot/simple-websocket-server.git
 pip3 install git+https://github.com/giampaolo/psutil.git
