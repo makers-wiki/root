@@ -146,8 +146,12 @@ class S2Pi(WebSocket):
         print(self.address, 'connected')
         
         # motor hat
-        self.mh = Adafruit_MotorHAT(addr=0x60)
-        print("motorHAT connected")
+        try:
+            self.mh = Adafruit_MotorHAT(addr=0x60)
+            print("motorHAT connected")
+        except:
+            print('Please doublecheck if your MotorHAT connected well')
+
         # 2개의 stepper 모터의 설정정보를 멤버변수로 기억해둠
         self.steps_per_turn = [None, None]
         self.stepper =[ None, None]
