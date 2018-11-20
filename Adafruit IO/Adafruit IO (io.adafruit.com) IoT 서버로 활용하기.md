@@ -191,3 +191,6 @@ x-aio-key도 웹페이지에서 확인해 입력해야 한다.
 ## adafruit io <-> llama Automate 연동
 
 ![](https://cl.ly/pRw1/Adafruit%20io.png)
+
+## Adafruit IO <-> 아두이노 + ESP8266으로 데이터 보내고 받기
+https://github.com/makers-wiki/root/blob/master/Arduino/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%ED%86%B5%EC%8B%A0/WIFI/ESP8266-Wifi%20shield%EC%B2%98%EB%9F%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20/ESP8266-Wifi%20shield%EC%B2%98%EB%9F%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20.md
