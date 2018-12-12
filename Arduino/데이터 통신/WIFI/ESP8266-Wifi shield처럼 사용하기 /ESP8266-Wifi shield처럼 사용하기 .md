@@ -98,6 +98,7 @@ Build:1.3.0.2 Sep 11 2015 11:48:04~~
 
 바이너리파일을 모듈에 복사해주는 flash tool은 이곳에서: https://www.espressif.com/en/support/download/other-tools
 
+![||600](https://cl.ly/0d830b1d7ccc/esp8266_update.PNG)
 
 ## Arduino와 연결
 세가지 정도 주의하면 되겠다.
