@@ -181,12 +181,12 @@ curl -X GET -H 'X-AIO-Key: **************' \
 ## adafruit io <-> snap4arduino 연동
 
 아래 확장 블록을 사용한다.
-[Adafruit-io-snap4arduino.xml](Adafruit-io-snap4arduino.xml "wikilink")
-![](https://cl.ly/pT7Q/Image%202018-02-10%20at%204.11.37%20PM.png)
+[Adafruit-io-snap4arduino.xml]
+![](https://cl.ly/8cd808/Image%202019-06-27%20at%2011.29.31%20AM.png)
 
-새로운 feedname과 group명으로 데이터를 send하면 자동으로 새 feed 가 생성되므로 별도로 adafruit io
-웹페이지에서 피드 생성할 필요 없이 간편하게 쓸 수 있다. 물론 계정은 각자 새로 만들어야 하며 그에 따른
-x-aio-key도 웹페이지에서 확인해 입력해야 한다.
+* 먼저 `adafruit.io 새피드 만들기`로 새로운 센서에 대한 피드를 만들고, `adafruit.io 데이터 기록하기` 로 값을 기록하고, 값을 읽을 때는 `adafruit.io 최근 데이터 가져오기`를 한다.
+* 물론 계정은 각자 새로 만들어야 하며 그에 따른 x-aio-key도 웹페이지에서 확인해 입력해야 한다.
+* 위 그림과 같이 숫자 뿐만 아니라 텍스트도 데이터로 활용 할 수 있다.
 
 ## adafruit io <-> llama Automate 연동
 

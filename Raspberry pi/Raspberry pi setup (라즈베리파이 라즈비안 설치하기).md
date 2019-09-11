@@ -141,8 +141,8 @@ $ sudo apt-get install realvnc-vnc-server realvnc-vnc-viewer
 
 2. menu &gt; 기본설정(preferences) &gt; Raspberry Pi Configuration &gt; Interfaces 에 들어가서 VNC 항목을 Enabled에 체크 후 OK한다. 내부 네트워크를 사용해 연결할 수 도, 인터넷을 통해 연결할 수도 있는데, 우리는 내부망을 사용하도록 하자. (아마 성능, 보안상 낫지 않을까?)
 
-3. 작업표시줄 우측의 VNC아이콘을 누르면 RPI 의 IP address를 알 수 있다.
-
+3. `dns-sd -G v4 raspberrypi.local` 명령어를 사용 RPI 의 IP address를 알 수 있다.
+![](https://cl.ly/f088c7/Image%202019-06-10%20at%2010.49.50%20PM.png)
 https://www.realvnc.com/en/connect/_images/raspberry-pi-direct-address.png
 
 4. 노트북에 VNC viewer를 설치한다. 여기에서 받을 수 있다. https://www.realvnc.com/en/connect/download/viewer/

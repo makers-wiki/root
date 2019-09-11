@@ -259,3 +259,17 @@ pcb기능은 preview 단계를 지나 기본 활성화 되어있다.
 ![](https://www.autodesk.com/products/eagle/blog/wp-content/uploads/2017/08/2017-08-15_11-06-19.png)
 
 * 이제 fusion360에서도, eagle에서도 부품 위치나 pcb크기등 편집할 수 있다. 편입을 마치면 eagle에서 'pull,push'로 동기화 해주어야 한다.
+
+# 부품data- footprint, 3D model - 얻는 법
+* mouser.com에서 대부분의 부품을 다운로드할 수 있다.
+ ![](https://cl.ly/709e395c0c34/Image%202019-05-03%20at%203.44.58%20PM.png)
+ * samacsys 라는 회사의 형식으로 되어있는 듯한데, samacsys library loader라는 프로그램으로 autodesk eagle에서 쓸 수 있도록 바꿀 수 있다. ... 그런데 library loader가 윈도우 전용 ㅠㅠ
+* 찾아보니 eagle plugin으로 samacsys 라이브러리 로더가 제공된다.
+설치방법 참고:   https://www.autodesk.com/products/eagle/blog/now-available-new-free-eagle-library-plugin-samacsys/
+참고로 설치할 때 .png파일은 Applications/Eagle9.4/bin  아래로, 나머지 파일은 /Applications/EAGLE-9.4.0/examples/ulps 폴더로 복사하면 된다.(mac)
+eagle.scr파일은 /Documents/EAGLE/아래에 있다.
+
+* 최초에 samacsys 버튼을 눌러서 실행시키면 회원가입 먼저하고, library를 지정해 주어야 하는데, eagle에서 새라이브러리 만들기로 만든 후(file> new> library) 적당한 이름으로저장하고 browse로 지정하면 된다.
+* 라이브러리는 managed library로 바꿔주어야 3d 패키지 적용할 수 있다.
+
+![](https://cl.ly/3d0230a2f4c7/Image%202019-05-03%20at%204.40.43%20PM.png)
